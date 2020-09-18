@@ -24,10 +24,7 @@ pipeline {
                                     encryptedPassphrase: "$USERPASS"
                                 ], 
                                 transfers: [
-                                    sshTransfer(
-                                        sourceFiles: 'src/**',
-                                        removePrefix: 'src/'
-                                    )
+                               
                                 ]
                             )
                         ]
